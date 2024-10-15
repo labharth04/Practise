@@ -1,0 +1,848 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin: 0;                  /* Remove default margin */
+  padding: 0;                 /* Remove default padding */
+  height: 100%;               /* Ensure body takes full height */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+.Header {
+  background-color: #2f3890;
+  color: white;
+  display: flex;
+  text-align: right;
+  margin-right: auto;
+  height: 9vh;
+  width: 100%; 
+  position: sticky;
+  top: 0;
+  z-index: 12321312;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+  margin-left: 17%;
+  margin-right: 20%;
+  width: 200vb;
+}
+
+
+.siteName{
+  width: 150px;
+  height: 100%;
+  background-image: url(altius2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  background-color: black;
+  align-self: flex-start;
+}
+
+
+
+.pages{
+  width: 100vb;
+  height: 9vh;
+  display: flex;
+  flex-direction: row;  
+  align-items: flex-start;
+  justify-content: space-evenly;  
+ 
+  /* border: 1px solid pink; */
+}
+.pages ul{
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 150px;
+  
+}
+.pages li{
+  list-style: none;
+  font-size: small;
+  font-weight: 100;
+}
+
+
+
+
+.dropCon1{
+  position: absolute;
+  /* border: 1px solid black; */
+  /* width: 100px;
+  height: 100px; */
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+  
+
+}
+.dropCon2{
+  position: absolute;
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.dropCon3{
+  position: absolute;
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.dropCon4{
+  position: absolute;
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.dropCon5{
+  position: absolute;
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.dropCon6{
+  position: absolute;
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.dropCon7{
+  position: absolute;
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.subList{
+  width: 100vb;
+  height: 30vh;
+  z-index: 200;
+  background-color: darkblue;
+  opacity: 80%;
+}
+.subList li{
+  width: auto;
+}
+
+.te1{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+}
+
+
+.dropCon1 ul{
+  padding: 0%;
+  width: 100vb;
+  height: 55vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+}
+.dropCon2 ul{
+  padding: 0%;
+  width: 100vb;
+  height: 55vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+}
+.dropCon3 ul{
+  padding: 0%;
+  width: 100vb;
+  height: 55vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+}
+.dropCon4 ul{
+  padding: 0%;
+  width: 100vb;
+  height: 55vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+}
+.dropCon5 ul{
+  padding: 0%;
+  width: 100vb;
+  height: 55vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+}
+.dropCon6 ul{
+  padding: 0%;
+  width: 100vb;
+  height: 55vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+}
+.dropCon7 ul{
+  padding: 0%;
+  width: 100vb;
+  height: 55vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
+.LI1{
+  cursor: pointer;
+  padding-left: 10px;
+}
+.LI2{
+  cursor: pointer;
+  padding-left: 10px;
+}
+.LI3{
+
+  cursor: pointer;
+  padding-left: 10px;
+
+}
+
+
+.LI4{
+
+  cursor: pointer;
+  padding-left: 10px;
+
+}
+
+.LI5{
+
+  cursor: pointer;
+  padding-left: 10px;
+
+}
+
+.LI6{
+
+  cursor: pointer;
+  padding-left: 10px;
+
+
+}
+
+.LI7{
+
+  cursor: pointer;
+  padding-left: 10px;
+
+}
+.LI1:hover .dropCon1{
+  display: block;
+}
+.LI2:hover .dropCon2{
+  display: block;
+}
+.LI3:hover .dropCon3{
+  display: block;
+}
+.LI4:hover .dropCon4{
+  display: block;
+}
+.LI5:hover .dropCon5{
+  display: block;
+}
+.LI6:hover .dropCon6{
+  display: block;
+}
+.LI7:hover .dropCon7{
+  display: block;
+}
+
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 70%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: white; /* Text color */
+  font-size: xxx-large; /* Adjust size as needed */
+  text-align: center;
+  padding: 10px; /* Optional padding */
+}
+
+
+
+.mainlist{
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  padding-bottom: 20px;
+ 
+}
+
+.mainlist li{
+  padding-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.over {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  margin-top: 100px;
+  opacity: 0%;
+}
+
+.LI1:hover .over{
+  opacity: 100%;
+}
+
+
+
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+
+
+footer{
+  display: flex;
+  background-color: #2e3690;
+  height: 2rem;
+}
+
+
+
+.secA {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ color: black;
+ min-width: none;
+}
+
+
+
+
+
+
+
+ .content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  margin-right: 45vb;
+  width: 41%;
+  padding-top: 100px;
+}
+
+.content h2{
+  display: flex;
+  position: relative;
+  color: #2e3690;
+  font-size: 3vw;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0%;
+}
+
+.content p{
+  display: flex;
+  position: relative;
+  color: #504793;
+  font-size: 1.2vw; 
+}
+
+.antImg {
+  display: flex;
+  width: 200px;
+  height: 450px;
+  float: left;
+  position: relative; 
+  left: 600px; 
+  top: 220px;   
+  pointer-events: auto;
+}
+.img2Container{
+  width: 1px;
+  height: 1px;
+}
+
+
+
+
+.kmDiv{
+  width: 20vb;
+  height: 10vh;
+  align-self: flex-start;
+  padding-left: 41vb;
+  padding-bottom: 95px;
+}
+
+.kmBtn{
+  background-color: #61a9dc;
+  color: white;
+  height: 7.5vh;
+  width: 20vb;
+  
+}
+
+
+.secB {
+  display: flex;
+  flex-direction: rows;
+  max-width: 70%;
+  min-height: 22vh;
+  padding-top: 32px;
+  padding-bottom: 28px;
+  padding-left: 48px;
+  padding-right: 48px;
+  background-color: #2e3690;
+  margin-bottom: 10px;
+}
+
+.stat {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-small;
+  border-right: 1px solid #61a9dc;
+}
+
+.stat i{
+  font-size: x-large;
+}
+
+.stat h1{
+  font-size: 2em;
+}
+
+.stat4 {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-small;
+}
+
+.stat4 i{
+  font-size: x-large;
+}
+
+.stat4 h1{
+  font-size: 2em;
+}
+
+.portfolio {
+  height: 1000px;
+  width: 900px;  
+  background-image: url(public/we.jpg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+}
+
+.divPfull {
+  height: 80%;
+  width: 60%;
+}
+
+.Phead {
+  color: #3a3ea2;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.Pp1{
+  color: #3a3ea2;
+  margin-bottom: 20px;
+}
+
+.Pp2 {
+  color: #3a3ea2;
+  margin-bottom: 40px;
+}
+
+.divPfull li{
+  color: #3a3ea2;
+  font-weight: 700;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.kmBtn2{
+  background-color: #61a9dc;
+  color: white;
+  height: 7vh;
+  width: 20vb;
+  
+}
+
+.secC{
+  height: 550px;
+  width: 900px; 
+  box-shadow: 10px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+   
+}
+
+.bookImg {
+  height: 65%;
+  width: 60%;
+
+}
+
+
+.divLcon {
+  width: 35%;
+  margin-bottom: 10%;
+  color: #2e3690;
+  height: 70vh
+}
+
+.divLcon h1{
+  font-size: xx-large;
+}
+
+.divLcon p{
+  font-size: medium;
+}
+
+.secD {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.divSus{
+  height: 505px;
+  width: 900px; 
+  color: black;
+  background-image: url(PLANT.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.emptyS{
+  height: 10vh;
+  width: 30%;
+}
+
+.divS{
+  height: 10vh;
+  width: 30%;
+  padding-right: 100px;
+  padding-bottom: 250px;
+ 
+}
+
+.divS h1{
+  font-size: xx-large;
+}
+
+.divS p{
+  width: 60vb;
+}
+
+.kmBtn3{
+  background-color: #c4db64;
+  height: 7vh;
+  width: 20vb;
+  
+}
+
+.secE{
+    width: 900px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.divHSSE{
+  height: 50vh;
+  width: 50%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.HSSECon{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.HSSECon h2{
+  margin: 0;
+  font-size: xxx-large;
+  color: #2e3690;
+}
+
+.HSSECon p{
+  margin-top: 10px;
+  color: #2e469d;
+}
+
+.HSSEImg{
+  height: 50vh;
+  width: 50%;
+  background-image: url(https://altius-phi.vercel.app/_next/image?url=%2Fimages%2Fsafety_helmet.webp&w=3840&q=75);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+}
+
+.secF{
+  width: 900px;
+  height: 354px;
+}
+
+.secF li{
+  color: #2e3690;
+  margin-left: 4vb;
+  margin-bottom: 20px;
+  font-size: medium;
+}
+
+.Footer{
+  background-color: white;
+  border: 1px solid black;
+  width: 99.9%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.end {
+  background-color: #2e3690;
+  width: 100%;
+  height: 7.5%;
+  align-self: flex-end;
+}
+
+.foot {
+  border: 1px solid black;
+  width: 70%;
+  height: 92.5%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footCon {
+  border: 1px solid black;
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  
+}
+
+.footLogo {
+  height: 15%;
+  width: 100%;
+  /* background-image: url(altius.png); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  align-self: flex-start;
+}
+
+.footLogoImg {
+  height: 100%;
+  width: 17%;
+}
+.footCon1{
+  height: 85%;
+  width: 30%;
+  border: 1px solid black;
+  margin: 0px;
+  color: black;
+}
+
+.footCon2{
+  height: 85%;
+  width: 30%;
+  border: 1px solid black;
+  margin-left: 4.75%;
+  margin: 0px;
+  color: black;
+}
+
+.footCon3{
+  height: 85%;
+  width: 30%;
+  border: 1px solid black;
+  margin-left: 4.5%;
+  margin: 0px;
+  color: black;
+}
+
+.contactInfo {
+  height: 10vh;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 2vh;
+  size: 0.7vh;
+}
+
+.aboutUs{
+  border: 1px solid black;
+  width: 100%;
+  height: 5%;
+  margin-top: 24px;
+}
+
+.investor{
+  border: 1px solid black;
+  width: 100%;
+  height: 5%;
+  margin-top: 24px;
+}
+
+.sustainability{
+  border: 1px solid black;
+  width: 100%;
+  height: 5%;
+  margin-top: 24px;
+}
+
+.quickLinks{
+  border: 1px solid black;
+  width: 100%;
+  height: 5%;
+  margin-top: 24px;
+}
+.footCon ul{
+  padding: 0px;
+}
+
+.footCon li{
+  font-size: 2vh;
+  size: 0.7vh;
+  list-style-type: none;
+}
+
+
+.footCon p{
+  font-size: 2vh;
+  size: 0.7vh;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.gtBtn{
+  background-color: #61a9dc;
+  color: white;
+  height: 7vh;
+  width: 20vb;
+}
+
+.pages li{
+  list-style: none;
+}
+
+/*ABOUT US PAGE CODE*/
+
+
+.a {
+  color: aqua;
+  height: 100px;
+  width: 100px;
+}

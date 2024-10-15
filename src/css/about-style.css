@@ -1,0 +1,304 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: white;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html, body {
+    margin: 0;                  /* Remove default margin */
+    padding: 0;                 /* Remove default padding */
+    height: 100%;               /* Ensure body takes full height */
+  }
+  
+
+
+.Aboutus-text{
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 25%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    color: white; /* Text color */
+    font-size: xxx-large; /* Adjust size as needed */
+    text-align: center;
+    padding: 10px; /* Optional padding */
+  }
+  
+  .AUsecA{
+    width: 100%;
+    height: 86.5vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .part1{
+    border: 1px solid red;
+    width: 900px;
+    height: 60vh;
+    padding-top: 152px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 12;
+  }
+
+  .p1Text{
+    border: 1px solid red;
+    height: 112px;
+    width: 354px;  
+    position: absolute;
+    padding-left: 7vb;
+    padding-right: 7vb;
+    color: black;
+    align-self: flex-start;
+  }
+
+  .p1Img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid red;
+    height: 57%;
+    width: 67.5%;
+    background-image: url(https://altius-phi.vercel.app/_next/image?url=%2Fimages%2Fskyscraper_buildings.webp&w=1200&q=75);
+    background-size: 100% 100%;
+  }
+
+.waveAni{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    z-index: -1;
+}
+
+
+  .AUsecB{
+    border: 1px solid red;
+    height: 12.5vh;
+    width: 820px;
+    padding: 40px;
+    background-color: #5ca6d9;
+    display: flex;
+    align-items: center;
+}
+
+  .CSicon{
+    width: 58px;
+    height: 58px;
+  }
+
+  .CStext{
+    color: white;
+    font-size: xxx-large;
+    padding-left: 20px;
+  }
+  
+  .AUsecC{
+    border: 1px solid red;
+    height: 150vh;
+    width: 708px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+.AUsecC p{
+    align-items: center;
+    color: black;
+    margin: 0px;
+}
+
+.AUsecC img{
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.AUnoteDiv{
+    width: 100%;
+    height: 15vh;
+    padding-top: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.AUsecCNote{
+    color: #2f3890;
+    font-weight: 500;
+}
+.AUsecC li{
+    color: #2f3890;
+    font-size: smaller;
+}
+
+.AUsecD{
+    border: 1px solid red;
+    height: 12.5vh;
+    width: 820px;
+    padding: 40px;
+    background-color: #2f3890;
+    display: flex;
+    align-items: center;
+}
+
+  .Licon{
+    width: 58px;
+    height: 58px;
+  }
+
+  .Ltext{
+    color: white;
+    font-size: xxx-large;
+    padding-left: 20px;
+  }
+
+  .AUsecE{
+    border: 1px solid red;
+    width: 900px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+  }
+
+.namebox1{
+    border: 1px solid red;
+    width: 370px;
+    height: 544px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    color: #2f3890;
+    flex:10%; /* Adjust the width of each item; 30% will fit 3 items per row */
+    /* margin: 10px; Add some spacing around each item */
+    background-color: white; /* Background color for visibility */
+    /* padding: 20px; Padding for the items */
+}
+
+
+.namebox2{
+  border: 1px solid red;
+  width: 350px;
+  height: 544px;
+  padding-left: 96px;
+  padding-right: 48px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #2f3890;
+  flex:10%; /* Adjust the width of each item; 30% will fit 3 items per row */
+  background-color: #f0f0f0; /* Background color for visibility */
+}
+
+
+.namebox3{
+  border: 1px solid red;
+  width: 350px;
+  height: 544px;
+  padding-left: 96px;
+  padding-right: 48px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #2f3890;
+  flex:10%; /* Adjust the width of each item; 30% will fit 3 items per row */
+  background-color: #f0f0f0; /* Background color for visibility */
+}
+
+.namebox4{
+  border: 1px solid red;
+  width: 350px;
+  height: 544px;
+  padding-left: 96px;
+  padding-right: 48px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #2f3890;
+  flex:10%; /* Adjust the width of each item; 30% will fit 3 items per row */
+  background-color: #f0f0f0; /* Background color for visibility */
+}
+
+
+.BOD{
+  border: 1px solid red;
+  width: 100%;
+  height: 20vh;
+  padding-bottom: 24px;
+  color: #2f3890;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  border-bottom: 1px solid blue;
+}
+.BDNames{
+  color: #2f3890;
+}
+
+.BDAbout{
+  font-size: large;
+}
+
+.BDPos{
+  font-size: medium;
+}
+
+.namebox2 p{
+  font-size: small;
+  text-align: start;
+}
+
+
+.BDInfo{
+  height: fit-content;
+  width: 50vb;
+  padding-left: 10px;
+}
+
+.BDImg{
+  border: 1px solid red;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  bottom: 70%; /* Position from the top */
+  left: 45%; /* Position from the left */
+  transform: translate(-50%, -50%); /* Adjust position to center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BD1{
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+}
+
+
+
+@keyframes slide{
+  from {
+    transform: translateX(300px);
+  }
+
+  to{
+    transform: translateX(0);
+  }
+}
+
+.BD1{
+  animation-name: slide;
+  animation-duration: 1s;
+  /* animation-iteration-count: infinite; */
+}
